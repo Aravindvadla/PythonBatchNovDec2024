@@ -35,7 +35,25 @@ print("substraction", subtraction) = substraction = 1
 
 ## Class 4
 
-    Recap Class 3
+1. Different types of using coment operater
+
+print('Hello world1')
+print("Hello #world2")
+print("hello","world3", sep= "#")
+print("hello world4") # 
+print("hello world5" ) 
+
+output : Hello world1
+Hello #world2
+hello#world3
+hello world4
+hello world5
+
+2. print(keyword.kwlist) = helps with keywords in coding such as printf true etc there are 71 key words
+
+3.  variable = view to all  public variable
+_variable = accessed with in own class and subclass  protected variable
+__variable = can be accsessed ub own class private variable
 
 
 ## Class 5 
