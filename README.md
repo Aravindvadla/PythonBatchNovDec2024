@@ -1,10 +1,37 @@
 # PythonBatchNovDec2024
 
 ## Class 1
+Crete repo and git shortcuts
+1. git checkout -b 'branch' = create branch
+2. git branch = check branches
+3. git clone 'https url'  = clone repo not for local devlopment
+4. git status = stage changes
+5. git diff = see changes made on single file for excat changes
+6. git add 'name' = stage changes
+7. git commit -m 'commit message' = commit chanhges
+8. git push origin 'branchname' = push changes
+9. PEP 8 is coding style in python enchancement proposal
 
 ## Class 2
 
+1. ./ = execuituin or to add file type to execution
+2. python code > python byte code> interpreter > compiler
+3. python dynamic typed language
+4. indentation error = expected things taht python will tell us 
+5. interactive mode is usefull to visually see the things that 
+ happen used for learning, script mode is as it is dispaly of results
+ 6. print statements for escape sequences
+ \t = tab spaace
+ \n = new line
+ \b = overwrite previous character 
+
 ## Class 3
+1. define numbers 
+num1 = 1
+num2 = 2
+addition = num1 + num2 
+print(Addtion) = 3
+print("substraction", subtraction) = substraction = 1
 
 ## Class 4
 
