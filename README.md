@@ -169,7 +169,6 @@ Feet to Conversion
   4*j j4 j*5 not possible
 
   22. complex built in fucntio we can crete own complex numbers
-
   23. == checks value equvilance 
    eg: 3 + 4j ==4j + 3
    is true real value compare with real value j value compared with j vlaue
@@ -180,3 +179,81 @@ Feet to Conversion
 
 
 ## Class 6
+
+1. Recap check the git status every day and check if yo are behind any commits.
+2. Also every do git pull which gives latest changes 
+3. String operations > create a new branch 
+4. git branch = list of branches
+5. git checkout -b class05 = create new brach
+6. to create a jupyter notebook use .ipynb
+7. String operation can be represented using 
+   single quotes , double quotes, triple single quotes and triple double quotes
+8. eg: language = 'Pythob Programming'
+print(language, type(language))
+output: Python Programming <class ;'str'>
+9. String can be defined 4 ways in python.
+note: PEP8 = is guidelines > use triple double quotes for doc string
+10. eg: where_abouts = 'what's up?'
+      print(where_abouts, type(where_abouts))
+      output: error: Ssyntax error unterminated string literal 
+      means whenwe use single quotes for string we have also use apostrophy which is read as string quotes hence not recommende to use single quotes
+
+11.  so to over come that issue we can use placing \ before any operator with results in treating it as ordinary character 
+12. If you are using multiple single quotes it is not practical to use \ for every single quote
+in this case we can use double quotes ""
+13. what if scenario we have single and double quotes in a string. in that case we can use single triple quotes else we can also use double triple quotes
+14. Multi line strings: python is interpretor based languauge line by line execution is happening. here is line contunation operation \
+15. for triple quote the python reads is complete multiple line we donot need to use the line continutaion operation 
+16. better practice to use ; eg: """ My name is "HAZY""""
+ instead we can use "HAZY";"""
+17. String indexing : len()
+= to get the no of charc in string 
+forward indexing and reverse indexing
+18. Mat lab and fotron indexing starts at 1 all other languages start indexing from 0
+19. Reverse indexing doesnot start from 0 becuas 0 doesnot have negative sign 
+20. forward indexing : 0 1 2 3 4 5 
+reverse indexing:  -6 -5 -4 -3 -2 -1
+21. indexerror = index out of range
+22. how reverse indexing works = if you give  string of 5 charctes 
+when you ask for -3 index it will minus from total lenght and give the character 
+23. used to get last charcters in string is use case example
+24. we can only as for integers floating point does not work 
+25. String slicing operation:
+we need to give start index and end index
+eg : we want 0 to 3 in a string of 10 charcters 
+26. **** in python it doesnot include last value in the a boubdary condition.
+27. Slciing operation is used to get group of charcter from a big string for eg: want to paint red to first 5 houses in a row
+28. in slicing if yo go beyond the limit of the string it doesnot throw error. 
+
+## Class 7
+
+1. Recap String slicing will take 3 arguments. eg: language[1:5 :1] means it is step of 1 with adding 1 to every digit and give the charcter
+2. it works with - 1 or negative step also work slcing will never throw an error
+3. string slicing [start_index: final_index, step]
+   default start_index = 0
+   default final_index = string lenght
+   default step = +1
+4. If step is -ve abd start_index and final_index were not given, then start_index = lenghth of string -1 final _index = -1 bqasically it will make it reverse index
+5. Assignment : Do perform inplace word reversal for a given string 
+6. Assignment: reverse each word in given sentence in same order
+7. not recomemnded to use combination if pos and neg indices
+eg: print("name[-6] : , name[-6:])
+print("name[len(name)-6:] :", name[len(name)-6:])
+8. most asked interview question : Demostration of palindrome check
+algorith: 
+TAke string in runtime and store varibale
+create a reverse string from given string usinf string reversal
+compare both with a condition and decide
+
+eg: test_string = input("Enter string")
+print("test_string = ", test_string)
+ 
+reverse_string = test_string[::-1]
+print("reverse_string: ", reverse_string)
+print(test_string == reverse_string)
+ 9. Assignment test given sentence is pallindrom or not hint ignore the whote spaces
+ 10. recheck string 
+ 
+
+ ##Class 8
+ 
